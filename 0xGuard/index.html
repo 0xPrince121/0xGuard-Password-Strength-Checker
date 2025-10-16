@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Strength Checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Intro Animation -->
+  <div class="intro" id="intro">
+    <h1 class="intro-logo"><span>0x</span>Guard</h1>
+    <p class="intro-text" id="intro-text"></p>
+  </div>
+
+  <!-- Main UI -->
+  <main class="container hidden" id="main">
+
+    <!-- Instruction Section -->
+    <div class="instruction">
+      <h2>Check Your Password Strength 🔒</h2>
+      <p>Enter a password to test its strength</p>
+    </div>
+
+    <input type="password" id="password" placeholder="Enter your password">
+    <div id="strength-wrapper">
+      <div id="strength-bar"><div></div></div>
+      <p id="strength-text">Enter a password to test strength</p>
+    </div>
+  </main>
+
+  <footer>
+    Built by <span class="highlight">0xPrince</span> for Security...
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

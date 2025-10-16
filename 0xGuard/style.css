@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Orbitron:wght@700&family=Roboto+Mono:wght@400&display=swap');
+
+:root {
+  --neon: #00ff99;
+  --blue: #33ccff;
+  --red: #ff4d4d;
+  --yellow: #ffcc00;
+  --dark: #0a0f1f;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Mono', monospace;
+  background: radial-gradient(circle at top, var(--dark), #000);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Intro Animation */
+.intro {
+  position: fixed;
+  inset: 0;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 999;
+}
+
+.intro-logo {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3.5rem;
+  color: var(--neon);
+  letter-spacing: 2px;
+  text-shadow: 0 0 20px var(--neon), 0 0 40px var(--blue);
+  animation: glowPulse 2s infinite alternate;
+}
+
+.intro-logo span {
+  color: var(--blue);
+}
+
+.intro-text {
+  font-family: 'Audiowide', cursive;
+  font-size: 1.1rem;
+  color: #ffffff;
+  margin-top: 20px;
+  line-height: 1.5;
+  min-height: 80px;
+  white-space: pre-wrap;
+  letter-spacing: 0.5px;
+  text-shadow: 0 0 5px #fff, 0 0 12px #aaa;
+}
+
+@keyframes glowPulse {
+  0% { text-shadow: 0 0 15px var(--neon), 0 0 30px var(--blue); }
+  100% { text-shadow: 0 0 50px var(--neon), 0 0 100px var(--blue); }
+}
+
+/* Main UI */
+.container {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: scale(0.9);
+  opacity: 0;
+  transition: 0.8s ease;
+}
+
+.container.show {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* Instruction Section */
+.instruction {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.instruction h2 {
+  font-family: 'Audiowide', cursive;
+  color: var(--neon);
+  margin: 0 0 5px 0;
+  font-size: 1.5rem;
+  text-shadow: 0 0 2px var(--neon);
+}
+
+.instruction p {
+  font-family: 'Roboto Mono', monospace;
+  color: #ffffff;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+/* Input */
+input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid #1f2a48;
+  background: #0a0f1f;
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+input:focus {
+  border-color: var(--neon);
+  box-shadow: 0 0 10px var(--neon);
+}
+
+/* Password Strength */
+#strength-wrapper {
+  width: 100%;
+}
+
+#strength-bar {
+  background: #1a1f33;
+  border-radius: 6px;
+  height: 12px;
+  overflow: hidden;
+}
+
+#strength-bar div {
+  width: 0%;
+  height: 100%;
+  border-radius: 6px;
+  background: linear-gradient(90deg, var(--red), var(--yellow), var(--blue), var(--neon));
+  transition: width 0.5s ease, background 0.5s ease;
+}
+
+#strength-text {
+  margin-top: 6px;
+  font-size: 13px;
+  color: #aaa;
+  text-align: center;
+}
+
+footer {
+  position: absolute;
+  bottom: 15px;
+  color: #0015ff;
+  font-size: 13px;
+}
+
+.highlight {
+  color: var(--neon);
+  font-weight: 600;
+  text-shadow: 0 0 10px var(--neon);
+}
