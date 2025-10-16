@@ -5,8 +5,6 @@
   
   <p>
     <img src="https://img.shields.io/badge/Status-Completed-gree?style=flat&logo=github" alt="Status">
-    <img src="https://img.shields.io/badge/Python-3.10+-blue?style=flat&logo=python" alt="Python">
-    <img src="https://img.shields.io/badge/Streamlit-grey?style=flat&logo=streamlit" alt="Streamlit">
     <img src="https://img.shields.io/badge/License-MIT-green?style=flat" alt="License">
   </p>
 </div>
@@ -48,8 +46,7 @@
 
 ## 🚀 Deployment Status
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/7f1814f0-983-4a6e-b36a-822a2f2fcd2e/deploy-status)](https://app.netlify.com/projects/0xguard/deploys)
-
+<img src="https://img.shields.io/badge/Status-Completed-gree?style=flat&logo=github" alt="Status">
 <!-- [![Render Deployment Status](https://api.render.com/deploy/srv-d26cvvffte5s73enuqs0?type=badge)](https://ev-demand-forecast.onrender.com) -->
 
 Deployed live on Netlify: [https://0xguard.netlify.app/](https://0xguard.netlify.app/)
@@ -58,8 +55,7 @@ Deployed live on Netlify: [https://0xguard.netlify.app/](https://0xguard.netlify
 Follow these instructions to set up the project locally.
 
 ```bash
-git clone https://github.com/0xPrince121/EV-vehicle-demand-prediction.git
-cd EV-vehicle-demand-prediction
+https://github.com/0xPrince121/0xGuard-Password-Strength-Checker.git
 install  requirements.
 open index.html
 ```
@@ -69,7 +65,7 @@ open index.html
 This project is licensed under the [MIT License](LICENSE).
 
 ## 🙏 Acknowledgements
-
+- 🔐 Password Security & Cyberpunk Design.
 
 <br>
 <br>
