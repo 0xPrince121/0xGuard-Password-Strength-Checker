@@ -29,12 +29,8 @@
 
 | Component           | Technology                          |
 |---------------------|-------------------------------------|
-| Core Language       | Python 3.10                         |
-| Data Processing     | pandas, numpy                       |
-| Visualization       | matplotlib, Plotly                  |
-| ML Framework        | scikit-learn (RandomForestRegressor)|
-| Web Framework       | Streamlit                           |
-| Deployment          | Render (via Procfile)               |
+| Core Language       | F Stack Dev.                        |
+| Deployment          | Netlify (via Procfile)              |
 
 ## 📂 Project Structure
 ```
@@ -52,20 +48,20 @@
 
 ## 🚀 Deployment Status
 
-[![Render Status](https://img.shields.io/badge/Render-Deployed-46F2B5?logo=render&logoColor=white)](https://ev-demand-forecast.onrender.com)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7f1814f0-983-4a6e-b36a-822a2f2fcd2e/deploy-status)](https://app.netlify.com/projects/0xguard/deploys)
 
 <!-- [![Render Deployment Status](https://api.render.com/deploy/srv-d26cvvffte5s73enuqs0?type=badge)](https://ev-demand-forecast.onrender.com) -->
 
-Deployed live on Render: [https://ev-demand-forecast.onrender.com](https://ev-demand-forecast.onrender.com)
+Deployed live on Netlify: [https://0xguard.netlify.app/](https://0xguard.netlify.app/)
 
 ## 💻 Local Setup
 Follow these instructions to set up the project locally.
 
 ```bash
-git clone https://github.com/XynaxDev/EV-vehicle-demand-prediction.git
+git clone https://github.com/0xPrince121/EV-vehicle-demand-prediction.git
 cd EV-vehicle-demand-prediction
-pip install -r requirements.txt
-streamlit run app.py
+install  requirements.
+open index.html
 ```
 
 ## 📄 License
@@ -74,9 +70,8 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 🙏 Acknowledgements
 
-- AICTE & Shell Edunet Skills4Future Internship Program
-- Inspired by best practices from real-world EV infrastructure projects.
 
 <br>
 <br>
-<div align="center"> Made with 💌 and Streamlit by Akash | © 2025 AICTE Internship Project </div>
+<div align="center"> Made with 💌  by Prince | © 2025 Cybersecurity.
+  </div>
