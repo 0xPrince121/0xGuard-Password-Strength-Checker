@@ -55,8 +55,7 @@ Deployed live on Netlify: [https://0xguard.netlify.app/](https://0xguard.netlify
 Follow these instructions to set up the project locally.
 
 ```bash
-https://github.com/0xPrince121/0xGuard-Password-Strength-Checker.git
-install  requirements.
+git clone https://github.com/0xPrince121/0xGuard-Password-Strength-Checker.git
 open index.html
 ```
 
