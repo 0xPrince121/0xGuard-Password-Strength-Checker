@@ -17,11 +17,13 @@
 
 ## ✨ Key Features
 
-- **County-Level Forecasting**: Predict EV adoption for any Washington State county
-- **Interactive Dashboard**: Beautiful Streamlit interface with dark theme
-- **3-Year Projections**: Visualize growth trends with historical context
-- **Multi-County Comparison**: Analyze regional adoption patterns
-- **Machine Learning Model**: RandomForest-based forecasting engine
+- Real-Time Strength Meter: Updates instantly as users type
+-	Neon/Cyberpunk UI: Glow effects, pulse animations, stylish fonts
+-	Privacy First: No passwords stored; optional analytics track only metrics
+- Responsive Design: Works flawlessly on desktop & mobile
+- Optional Backend Analytics: Node.js + MongoDB for anonymous metrics & graphs
+-	Interactive Feedback: Animated strength bar & labels (Too Weak → Strong)
+-	Intro Animation & Branding: Cyberpunk-inspired entrance with neon glow
 
 ## 🛠️ Tech Stack
 
