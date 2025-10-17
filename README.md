@@ -30,7 +30,7 @@
 | Component           | Technology                          |
 |---------------------|-------------------------------------|
 | Core Language       | F Stack Dev.                        |
-| Deployment          | Netlify (via Procfile)              |
+| Deployment          | Netlify (via Profile)              |
 
 ## 📂 Project Structure
 ```
