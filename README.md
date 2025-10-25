@@ -1,5 +1,5 @@
 <div align="center">
-  <img style="height:150px;" src="0xGuard/Assets/logo.jpg" alt="EV Forecast Dashboard">
+  <img style="height:150px;" src="0xGuard/Assets/logo.jpg" alt="LOGO">
   <h1> 🔒 0xGuard Password Strength Checker </h1>
   <p><em> A Data-Driven System to Evaluate Password Strength with Neon UI Animations and Optional Backend Analytics. </em></p>
   
